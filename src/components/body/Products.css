@@ -1,0 +1,83 @@
+.services {
+ position: relative;
+ display: flex;
+ gap: 1rem;
+ width: fit-content; 
+ max-width: 100%;
+ width: fit-content;
+ box-sizing: border-box;
+ padding-bottom: 1rem;
+ height: max-content;
+ background-color: white;
+ left: 19.9%;
+  
+  }
+  .service-container {
+    
+    background-color: #faf9f9;
+    width: 361px;
+    height: inherit; 
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    box-shadow: 0.063rem 0.5rem 1.25rem hsl(0deg 0% 0% / 12.16%);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    
+  }
+  img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    line-height: 0;
+    bottom: -0.063rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  .Service-Book-Btn{
+    border-style: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+.Service-Book-Btn:hover{
+  cursor: pointer;
+  background-color: black;
+    color: white;
+
+}
+
+
+    /***Media Queries**/
+    @media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+    @media all and (min-width: 768px) and (max-width: 1024px) {
+      .services{
+        position: relative;
+        display: grid;
+        grid-row: 1;
+        flex-direction: column;
+        left: 30%;
+        
+      }
+     }
+    
+    @media all and (min-width: 480px) and (max-width: 768px) { 
+      .services{
+        position: relative;
+        display: flexbox;
+        flex-direction: column;
+        left: 2.5rem;
+      }
+    }
+    
+    @media all and (max-width: 480px) { 
+      .services{
+        position: relative;
+        display: flexbox;
+        flex-direction: column;
+        left: 2.5rem;
+      }
+  
+      }
